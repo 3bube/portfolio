@@ -1,8 +1,8 @@
 import kreatorspace from "/src/assets/images/kreatorspace.png";
-import memento from "/src/assets/images/memento-desktop.webp";
-import acc from "/src/assets/images/acc-square.webp";
-import daddy from "/src/assets/images/godaddy-desktop.webp";
-import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
+import project2 from "/src/assets/images/project2.png";
+import project3 from "/src/assets/images/project3.png";
+import project4 from "/src/assets/images/project4.png";
+import project5 from "/src/assets/images/project5.png";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -30,46 +30,46 @@ export default function Works({ forwardedRef }) {
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://mementostudio.netlify.app/"
-            img={memento}
-            alt="memento landing page mockup"
-            name="memento studio landing page"
+            link="https://rest-countries-api-with-color-switcher.vercel.app/"
+            img={project2}
+            alt="Rest api country landing page mockup"
+            name="Rest Country landing page"
             type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            year="2024"
+            tools="React • TailwindCSS • API"
           />
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://realbusinessaccountants.netlify.app"
-            img={acc}
-            alt="real business accountant project mockup"
-            name="real business accountants"
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript • Figma"
+            link="https://url-shortening-api-landing-page-roan-ten.vercel.app/"
+            img={project3}
+            alt="URL shortener landing page mockup"
+            name="URL shortener landing page"
+            type="Frontend Development"
+            year="2024"
+            tools="React • TailwindCSS • API "
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://godaddyuiclone.netlify.app"
-            img={daddy}
-            alt="godaddy clone page mockup"
-            name="GODADDY LANDING PAGE CLONE"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            link="#"
+            img={project4}
+            alt="AR educational platform mockup"
+            name="AR Educational Platform"
+            type="Fullstack development"
+            year="2024"
+            tools="React Native • Supabase • React Native Paper"
           />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
           <Projects
-            link="https://sunnysidechallenge.netlify.app"
-            img={sunnyside}
-            alt="sunnyside project mockup"
-            name="SUNNYSIDE LANDING PAGE"
+            link="https://blorg-landing-page.vercel.app/"
+            img={project5}
+            alt="Blorg landing page mockup"
+            name="BLOGR LANDING PAGE"
             type="Frontend Development"
-            year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
+            year="2024"
+            tools="HTML • CSS"
           />
         </div>
       </div>
