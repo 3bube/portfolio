@@ -1,6 +1,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import NavBar from "./components/ui/NavBar";
@@ -60,6 +61,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 };
