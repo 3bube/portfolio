@@ -10,7 +10,7 @@ export default function About() {
   const heading = useRef(null);
   const body = useRef(null);
 
-  const profileImg = "/src/assets/images/6H6A2386.jpg";
+  const profileImg = "https://res.cloudinary.com/dvogkq9do/image/upload/v1751045173/6H6A2386_tkgwkg.jpg";
 
   useEffect(() => {
     ScrollTrigger.create({
