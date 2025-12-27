@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-// import profileImg from "/src/assets/images/profile.webp";
+import profileImg from "/src/assets/images/ebube.jpg";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
@@ -9,8 +9,6 @@ export default function About() {
   const aboutSection = useRef(null);
   const heading = useRef(null);
   const body = useRef(null);
-
-  const profileImg = "src/assets/images/ebube.JPG";
 
   useEffect(() => {
     ScrollTrigger.create({
