@@ -38,9 +38,12 @@ const App = () => {
           }),
           toggleActions: "play none none none",
         });
-        ScrollTrigger.refresh();
       });
     });
+    // Refresh all ScrollTriggers after Hero animations complete
+    setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 3500);
   }, []);
 
   return (

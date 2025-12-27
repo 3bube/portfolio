@@ -10,11 +10,14 @@ export default function Hero() {
   const scroll = useRef(null);
 
   useEffect(() => {
-    const tl = gsap.timeline({ repeat: -1 });
-    tl.from(scrollLine.current, {
-      translateX: -40,
+    const tl = gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
+    tl.to(scrollLine.current, {
+      x: -40,
       duration: 1.5,
       ease: "power4.inOut",
+    }).to(scrollLine.current, {
+      x: 40,
+      duration: 0,
     });
   }, []);
 

@@ -34,7 +34,7 @@ export default function NavBar({ sectionRefs }) {
       ScrollTrigger.create({
         trigger: section,
         start: "top 375px",
-        end: "bottom 300px",
+        end: "bottom 100px",
         // markers: true,
         animation: gsap
           .timeline()
