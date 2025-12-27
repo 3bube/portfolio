@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import profileImg from "../../assets/images/ebube.jpg";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
@@ -42,7 +41,7 @@ export default function About() {
             ref={profile}
             loading="lazy"
             className="aspect-square h-auto w-full rounded-md object-cover object-center md:aspect-auto"
-            src={profileImg}
+            src="/ebube.jpg"
             width="600"
             height="800"
             alt="portrait of Ebube"
